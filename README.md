@@ -1,6 +1,9 @@
-# 벌마 쓰자!
+# 벌마, 리액트 아이콘 쓰자!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+뷰 구성(수정중)
+
+- 청운 : 메인 페이지
+- 영일 : 로그인 페이지
 
 ## Available Scripts
 

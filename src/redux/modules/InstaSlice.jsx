@@ -1,12 +1,12 @@
-import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
-import axios from "axios";
+// import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
+// import axios from "axios";
 
-const initialState = {
-    instas: [],
-    isLoading: false,
-    error: null,
-    // comments: [],
-  };
+// const initialState = {
+//     instas: [],
+//     isLoading: false,
+//     error: null,
+//     comments: [],
+//   };
 
 //   export const __getMovies = createAsyncThunk("movies/getMovies", async (payload, thunkAPI) => {
 //     try {
@@ -17,12 +17,12 @@ const initialState = {
 //     }
 //   });
 
-export const InstaSlice = createSlice({
-    name: "instas",
-    initialState,
-    reducers: {},
-    extraReducers: {}
-})
+// export const InstaSlice = createSlice({
+//     name: "instas",
+//     initialState,
+//     reducers: {},
+//     extraReducers: {}
+// })
 
-export const {} = InstaSlice.actions;
-export default InstaSlice.reducer;
+// export const {} = InstaSlice.actions;
+// export default InstaSlice.reducer;
