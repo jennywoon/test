@@ -3,11 +3,11 @@
 뷰 구성(수정중)
 
 - 청운 : 메인 페이지
-- 영일 : 로그인 페이지
+- 영일 : 로그인, 회원가입 페이지
 
-## Available Scripts
+## 새로 시도하고 있는 것(수정중)
 
-In the project directory, you can run:
+카카오톡 소셜 로그인
 
 ### `yarn start`
 
