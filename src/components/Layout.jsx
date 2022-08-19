@@ -1,11 +1,9 @@
 import styled from "styled-components";
-// import Header from "../components/Header";
 
 const Layout = (props) => {
   return (
     <StLayoutContainer>
-      {/* <Header /> */}
-      <StLayoutContents>{props.children}</StLayoutContents>
+      <StLayoutContents>{props.children}</StLayoutContents >
     </StLayoutContainer>
   );
 };
@@ -23,5 +21,5 @@ const StLayoutContainer = styled.div`
 
 const StLayoutContents = styled.div`
   height: 100%;
-  background-color: #181818;
+  /* background-color: #181818; */
 `;

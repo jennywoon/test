@@ -1,12 +1,12 @@
 import React from 'react'
 import styled from 'styled-components';
 import Footer from './Footer';
-import LoginForm from './LoginForm';
+import RegisterForm from './RegisterForm';
 
-const Login = () => {
+const Register = () => {
   return (
     <StyledLoginContainer>
-      <LoginForm />
+      <RegisterForm />
       <Footer />
     </StyledLoginContainer >
   )
@@ -19,4 +19,4 @@ const StyledLoginContainer = styled.div`
   height: 100vh;
 `
 
-export default Login
+export default Register
