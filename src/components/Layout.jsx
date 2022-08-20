@@ -13,6 +13,8 @@ const Layout = (props) => {
 export default Layout;
 
 const StLayoutContainer = styled.div`
+height:auto;
+overflow-x: hidden;
 `;
 
 const StLayoutContents = styled.div`
