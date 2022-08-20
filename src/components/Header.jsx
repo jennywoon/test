@@ -26,7 +26,12 @@ const Header = () => {
                 <NavbarIcons>
                     <MdHome size = "30" style={{cursor: "pointer"}}/>
                     <IoPaperPlaneOutline size = "28"/>
-                    <TbSquarePlus size = "31"/>
+                    <TbSquarePlus
+                        onClick={() => {
+                            navigate("/upload")
+                        }}
+                        style={{cursor: "pointer"}}
+                    size = "31"/>
                     <IoCompassOutline size = "30"/>
                     <AiOutlineHeart size = "30"/>
                     <UserImage
