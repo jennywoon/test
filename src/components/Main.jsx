@@ -16,8 +16,9 @@ export default Main;
 
 const MainContainer = styled.div`
     align-items: center;
-    border: 1px solid rgb(219,219,219);
-    width: 45%;
+    /* border: 1px solid rgb(219,219,219); */
+    /* width: 45%; */
+    width: 850px;
     height: 100%;
     margin: auto;
     /* position: absolute; */

@@ -45,7 +45,7 @@ const MainPost = () => {
                 </ContentWrap>
                 <CommentWrap>
                     <CommentFirstSection>
-                        <VscSmiley size= "26" style={{padding: "0 15px"}}/>
+                        <VscSmiley size= "26" style={{padding: "0 10px"}}/>
                         <CommentInput />
                     </CommentFirstSection>
                     <UploadLable>게시</UploadLable>
@@ -77,7 +77,7 @@ const FirstHeader = styled.div`
     flex-direction: row;
     align-items: center;
     padding: 0 10px;
-    gap: 10px;
+    /* gap: 10px; */
 `
 const UserImg = styled.div`
     border: 1px solid rgb(219,219,219);
@@ -86,6 +86,7 @@ const UserImg = styled.div`
     height: 32px;
 `
 const UserLabel = styled.div`
+    padding-left: 12px;
     font-weight: bold;
     font-size: 17px;
 `
@@ -132,8 +133,9 @@ const UserLikeLable = styled.div`
 `
 
 const ContentWrap = styled.div`
+    width: 100%;
     height: 90px;
-    padding: 0 15px;
+    /* padding: 0 15px; */
     display: flex;
     flex-direction: column;
     /* align-items: center; */
@@ -148,18 +150,20 @@ const ContentFirstSection = styled.div`
     gap: 10px;
 `
 const CommentCount = styled.div`
+    padding-left: 12px;
     font-size: 15px;
     color: #8e8e8e;
 `
 
 const ContentTime = styled.div`
+    padding-left: 12px;
     font-size: 12px;
     color: #8e8e8e;
 `
 
 const CommentWrap = styled.div`
     border-top: 1px solid rgb(219,219,219);
-    width: 100%;
+    /* width: 100%; */
     height: 49px;
     display: flex;
     justify-content: space-between;
@@ -167,16 +171,18 @@ const CommentWrap = styled.div`
 `
 const CommentFirstSection = styled.div`
     display: flex;
+    align-items: center;
 `
 
 const CommentInput = styled.input`
     border: none;
     outline: none;
-    width: 350px;
-    font-size: 16px;
+    width: 330px;
+    height: 16px;
+    font-size: 14px;
 `
 
 const UploadLable = styled.div`
     color: #0095f6;
-    padding-right: 15px;
+    padding-right: 14px;
 `
